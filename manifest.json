@@ -3,7 +3,7 @@
 
 	"name": "StudyBlue Unblur!",
 	"description": "Removes the annoying blur from StudyBlue cards.",
-	"version": "1.0",
+	"version": "1.1",
 	"icons": {
 		"16": "icon_16.png",
 		"48": "icon_48.png",
@@ -16,12 +16,10 @@
 	"content_scripts": [
 		{
 			"matches": [
-				"https://studyblue.com/*",
-				"https://www.studyblue.com/*",
-				"http://studyblue.com/*",
-				"http://www.studyblue.com/*"
+				"https://www.studyblue.com/notes/note/n/*",
+				"http://www.studyblue.com/notes/note/n/*"
 			],
-			"js": ["script.js"]
+			"js": ["jquery-3.1.0.min.js", "script.js"]
 		}
 	]
 }
