@@ -1,4 +1,4 @@
-# studyblue-unblur
+# StudyBlue Unblur!
 Google Chrome extension that removes the blur effect from StudyBlue flashcards. 
 Also does a few other things like: 
 - Removes cards with adds
